@@ -4,6 +4,7 @@
     "description": "Catalyst Doctrine Discriminator Map Bundle ",
     "keywords": ["doctrine", "discriminator"],
     "license": "MIT",
+    "homepage": "https://github.com/jankstudio/catalyst-discriminator-map-bundle",
     "authors": [
         {
             "name": "Kendrick Chan",
