@@ -17,6 +17,6 @@
         "doctrine/doctrine-bundle": ">=1.2"
     },
     "autoload": {
-        "psr-0": { "Catalyst\\DiscriminatorMapBundle\\": "" }
+        "psr-0": { "Catalyst\\DiscriminatorMapBundle": "" }
     }
 }
