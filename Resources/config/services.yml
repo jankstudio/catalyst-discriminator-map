@@ -1,0 +1,6 @@
+services:
+    catalyst.discriminator_map.doctrine_event_listener:
+        class: Catalyst\DiscriminatorMapBundle\Service\DoctrineEventListener
+        arguments: ["@service_container"]
+        tags:
+            - { name: doctrine.event_listener, event: loadClassMetadata }
