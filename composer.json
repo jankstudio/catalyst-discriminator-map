@@ -1,0 +1,22 @@
+{
+    "name": "jankstudio/catalyst-discriminator-map-bundle",
+    "type": "symfony-bundle",
+    "description": "Catalyst Doctrine Discriminator Map Bundle ",
+    "keywords": ["doctrine", "discriminator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kendrick Chan",
+            "email": "kc@jankstudio.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": ">=2.3",
+        "doctrine/orm": ">=2.2.3",
+        "doctrine/doctrine-bundle": ">=1.2"
+    },
+    "autoload": {
+        "psr-0": { "Catalyst\\DiscriminatorMapBundle\\": "" }
+    }
+}
